@@ -8,8 +8,5 @@ bool respRatecheck(float respRate){
 return (respRate < 30 || respRate > 60);
 }
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
-
-  if(bpmcheck(bpm) ||(spo2check(spo2)) || (respRatecheck(respRate)))
-           return false;
- return true;
+  return(bpmcheck(bpm) ||(spo2check(spo2)) || (respRatecheck(respRate)))
 }
