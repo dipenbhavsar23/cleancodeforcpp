@@ -1,3 +1,4 @@
+#include "paramchecker.h"
 bool checklimits(float data,float upper,float lower){ 
   return(data < lower || data > upper);
 }
