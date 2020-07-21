@@ -2,7 +2,7 @@
 bool checklimits(float data,float upper,float lower){ 
   return(data < lower || data > upper);
 }
-bool checklower(float data,upper){
+bool checklower(float data,float upper){
 return (data < upper);
 }
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
